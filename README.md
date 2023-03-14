@@ -2,7 +2,7 @@
 Use to find a restaurant
 
 ## Screenshot
-![Screen shot of app](https://github.com/hashi001/homework/blob/main/screenshot.png)
+![Screen shot of app](https://github.com/hashi001/Task/blob/main/screenshot.png)
 
 
 ## Setup
