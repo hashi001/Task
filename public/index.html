@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script src="/js/script.js" defer></script>
+    <script src="/js/search.js" defer></script>
+
+</head>
+<title>Restaurant Finder App</title>
+</head>
+
+<body>
+    <header>
+        <div class="bg-zinc-600 text-center h-16 pt-2 text-4xl text-white ">
+            <div>Restaurant Finder</div>
+        </div>
+    </header>
+    <div class="flex">
+        <aside class="flex justfy-center h-screen w-72 shadow-lg">
+            <div class="flex flex-col items-center ">
+                <div class="mx-7 my-5">
+                    <input class="rounded border border-green-500 text-center" type="text"
+                        placeholder="Search a Restaurant" id="search-str">
+                </div>
+                <div class="bg-green-500 w-32 p-1 text-center text-white font-bold text-md rounded ">
+                    <button id="search-btn">Search</button>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <div class="h-80">
+
+            <div class="flex flex-wrap  space-x-4 space-y-4 " id="restaurants">
+                <div class="shadow ml-4 mt-4 h-72 p-4 rounded">
+                    <h1 class="text-xl font-bold text-yellow-500 ">McDonald's</h1>
+                    <div class="leading-8 text-1xl w-72">
+                        <p>Address: 109 Coventry road </p>
+                        <p>miles: 3.5 mile</p>
+                        <p>contact: 0121 773 9589</p>
+                        <div class="bg-green-500 w-32 mt-8 text-center text-white text-2xlg rounded">
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- </div> -->
+
+    </div>
+
+</body>
+
+</html>
